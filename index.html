@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #E6C5FF;
+            font-family: "Ribeye", serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 0px;
+        }
+
+        .tituloroxo {
+            color: blueviolet;
+        }
+
+        #meu-cabecalho {
+            background-color: rgb(104, 34, 170);
+            color: white;
+            padding: 20px 50px;
+        }
+
+        .hr-pontilhado {
+            border: none;
+            border-top: 8px dotted rgb(104, 34, 170);
+            color: rgb(104, 34, 170);
+            background-color: transparent;
+            height: 0;
+            width: 50%;
+            margin: 30px auto;
+        }
+
+        .hr-pilula {
+            border: 0;
+            height: 12px;
+            background: #ba55ff;
+            border-radius: 50px;
+            width: 50%;
+            position: relative;
+            margin: 40px auto;
+        }
+
+        .hr-pilula::after {
+            content: "";
+            position: absolute;
+            left: 10%;
+            top: 3px;
+            height: 6px;
+            width: 20%;
+            background: #E6C5FF;
+            border-radius: 50px;
+        }
+
+        .imagens {
+            max-width: 80%;
+            height: auto;
+            border: 4px solid white;
+            border-radius: 15px;
+            box-shadow: 8px 8px 0px #551685;
+            margin-bottom: 20px;
+        }
+
+        .imagens2 {
+            max-width: 80%;
+            height: auto;
+            border: 4px solid white;
+            border-radius: 15px;
+            box-shadow: 8px 8px 0px #f800ff;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+        .imagens3 {
+            max-width: 80%;
+            height: auto;
+            border: 4px solid white;
+            border-radius: 15px;
+            box-shadow: 8px 8px 0px #ff40fc;
+            margin-bottom: 20px;
+        }
+
+        .imagens4 {
+            max-width: 80%;
+            height: auto;
+            border: 4px solid white;
+            border-radius: 15px;
+            box-shadow: 8px 8px 0px #9a15ff;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+        .container-mitologia {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: #e0d0f0;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .texto-mitologia {
+            color: #6800d9;
+            margin-top: 0;
+        }
+
+        .texto-mitologia2 {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #a555ff;
+        }
+
+        .texto-rosa {
+            line-height: 1.5;
+            color: #f800ff;
+        }
+
+        .texto-rosa2 {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #d500db;
+        }
+
+        .galeria {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .galeria .imagens {
+            width: 22%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .destaque {
+            color: #f800ff;
+        }
+
+        .destaque2 {
+            color: #7b00db;
+        }
+
+        .footer {
+            background-color: rgb(104, 34, 170);
+            color: white;
+            padding: 20px 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="meu-cabecalho">
+        <a href="https://ssu.fandom.com/wiki/Constela%C3%A7%C3%A3o_de_Coroa_Boreal" style="color: white; text-decoration: none;">Coroa boreal!</a>
+
+        <a href="https://mitologiagrega.fandom.com/pt-br/wiki/Dion%C3%ADsio" style="color: white; text-decoration: none;">Mais sobre!</a>
+
+        <a href="https://smite.fandom.com/pt-br/wiki/Baco" style="color: white; text-decoration: none;">Outras representações!</a>
+    </h1>
+    <section class="container-mitologia">
+        <div class="imagem-estatua">
+            <img class="imagens" src="imagens/estatua.jpg"
+                alt="Estátua de bronze do deus grego Dionísio reclinado, segurando uma jarra em uma mão e uma taça na outra, adornado com ramos de uva"
+                height="250" width="300">
+        </div>
+        <div>
+            <h2 class="texto-mitologia">
+                O que é mitologia?
+            </h2>
+            <p class="texto-mitologia2 ">
+                São as fics que as civilizações criaram para explicar babados que não entendem. Um ótimo exemplo é o
+                Zeus, quando raios caiam, os gregos falavam que era o Zeus bravo com algo, mas o deus de quem vou falar
+                nunca ficava bravo, já que sempre estava bêbado demais para isso. Dionísio, deus do vinho, das bebidas,
+                festas e do teatro.
+            </p>
+            <p class="texto-mitologia2">
+                Pra vc entender o hit que foi a mitologia grega, ela hitou tanto que seus inimigos, os romanos, roubaram
+                suas histórias e até sua cultura, por isso muitos confundem as histórias, já que são as mesmas mas com
+                outros nomes.
+            </p>
+        </div>
+    </section>
+    <hr class="hr-pontilhado">
+    <div class="galeria">
+        <img class="imagens" src="imagens/coroaboreal.jpg"
+            alt="Ilustração gráfica de uma constelação brilhante em formato de arco ou semicírculo de estrelas conectadas por linhas brancas finas contra um fundo azul-escuro estrelado">
+        <img class="imagens" src="imagens/teatro.jpg"
+            alt="Ilustração digital detalhada mostrando a recriação de uma peça de teatro em um grande anfiteatro clássico lotado de espectadores vestindo trajes antigos">
+        <img class="imagens" src="imagens/festa.jpg"
+            alt="Ilustração colorida retratando um banquete ou festividade na Grécia Antiga, com pessoas vestidas com túnicas conversando, bebendo, tocando instrumentos musicais e uma acrobata fazendo parada de mão ao fundo">
+        <img class="imagens" src="imagens/vinho.jpg"
+            alt="Fileira de garrafas de vinho antigas e empoeiradas dispostas lado a lado em uma adega, com rótulos envelhecidos e desgastados pelo tempo">
+    </div>
+    <div>
+        <h2 class="texto-mitologia">
+            Quem é esse who?
+        </h2>
+        <p class="texto-mitologia2">
+            Dionísio é o Deus do vinho e das festas, ama um teatro e beber uns goro. Ele nasceu duas vezes de acordo com
+            as histórias, um babado fortíssimo, que eu só vou contar em <span class="destaque">Os babados da
+                vida.</span> Voltando a apresentação, ele foi conhecido como deus da inclusão, pra ele não importava
+            gênero, cor, corpo, ou status social, ele só ligava se a pessoa gostava de beber e festejar, assim como ele.
+            O primeiro protestante das mitologias, slay king!
+        </p>
+    </div>
+    <div>
+        <h2 class="texto-rosa">
+            Os babados da vida
+        </h2>
+        <p class="texto-rosa2">
+            O nascimento do Didi foi uma loucura: a mãe dele, Semeale, era amante de Zeus, e Hera mandou a coitada pro
+            ralo antes mesmo do bebê virar feto. Para salvar o filho, Zeus costurou o feto na própria coxa e terminou de
+            gestar o menino ali mesmo.
+        </p>
+        <p class="texto-rosa2">
+            A relação com a madrasta era uó, mas o casamento dele foi o oposto do dos pais: puro loss pra solidão e
+            muito feliz. Ele conheceu a princesa Ariadne depois que ela levou o maior ghosting do <span
+                class="destaque2">"heroi"</span> Teseu em uma ilha deserta, logo após ajudar o cara a solar o Minotauro.
+            Dionísio se apaixonou na hora pela beleza da gata, casou com ela e, pra provar seu amor, lançou a coroa dela
+            ao céu, transformando-a na constelação Coroa Boreal. O homem literalmente deu as estrelas para ela!
+        </p>
+    </div>
+    <div>
+        <hr class="hr-pilula">
+        <img class="imagens2" src="imagens/didi.jpg" alt="">
+    </div>
+    <div>
+        <h2 class="texto-mitologia">
+
+            Poderes do querido!
+        </h2>
+        <ul>
+            <li class="texto-mitologia2">
+                <span class="destaque">Metamorfose:</span> Ele se transformava em qualquer animal pra botar os haters
+                pra correr (deixando todo mundo gag como leão) ou simplesmente transformava os outros em sapo ou burro
+                quando estava inspirado.
+            </li>
+            <li class="texto-rosa2">
+                <span class="destaque2">Controle do Mood:</span> Podia levar uma pessoa (ou a city inteira) à loucura
+                absoluta como punição, mas também curava a bad e o estresse da galera com alegria e liberdade total.
+            </li>
+            <li class="texto-mitologia2">
+                <span class="destaque">Biocinese:</span> Fazia videiras brotarem do nada em segundos e criava> fontes
+                naturais que jorravam vinho, leite ou mel direto da terra.
+            </li>
+            <li class="texto-rosa2">
+                <span class="destaque2">Ilusionismo:</span>Como patrono do teatro, era o mestre das ilusões. Ele
+                confundia os sentidos do povo e fazia todo mundo ver coisa onde não tinha — tipo quando fez o Rei Penteu
+                jurar que estava encarando um touro.
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="texto-rosa">
+            Personagens inspirados/parecidos com o Didi!
+        </h2>
+        <ol>
+            <li class="texto-rosa2">
+                <img class="imagens3" src="imagens/jack.jpg"
+                    alt="Close-up de perfil do personagem Jack Sparrow, interpretado por Johnny Depp, usando seu chapéu de pirata tricornial e bandana vermelha, com o dedo indicador no queixo."
+                    height="200" width="150">
+                <span class="destaque2">Jack Sparrow 𓌜☠︎︎</span> O ápice da energia dionisíaca. Malemolente, fala
+                arrastada,
+                puro deboche e mestre em escapar de tretas na base do improviso. Vive no mar e deixa todo mundo na
+                dúvida se é um gênio ou se coringou de vez.
+            </li>
+            <li class="texto-mitologia2">
+                <img class="imagens" src="imagens/klaus.jpg"
+                    alt="Fotografia de close-up de um homem jovem de terno preto e gravata borboleta branca olhando diretamente para a câmera com uma expressão séria."
+                    height="200" width="150">
+                <span class="destaque">Klaus Mikaelson .⋆♱</span> Representa o lado dark e intenso do deus. O cara foca
+                na
+                estética (ama arte, música e festas luxuosas), mas tem aquele temperamento explosivo e perigoso. Além
+                disso, a busca dele por aceitação é igualzinha à de Dionísio tentando cavar seu espaço no Olimpo.
+            </li>
+            <li class="texto-rosa2">
+                <img class="imagens3" src="imagens/gragas.jpg"
+                    alt="Ilustração em estilo de fantasia digital focada no rosto de um anão guerreiro furioso com cabelos e barba longa ruivos e expressivos, gritando com a boca aberta."
+                    height="200" width="150">
+                <span class="destaque2">Gragas ⚔</span> O Dionísio dos games. Enquanto o deus viajava espalhando a
+                cultura
+                do vinho, o Gragas roda Runeterra atrás do ingrediente perfeito para a bebida mais potente de todas.
+                Mesma vibe de viver pelo rolê e pelo êxtase.
+            </li>
+        </ol>
+    </div>
+    <div>
+        <img class="imagens4" src="imagens/dionisio2.jpg" alt="">
+        <h2 class="texto-mitologia">
+            bye bye babys!
+        </h2>
+        <p class="texto-mitologia2">
+            Aqui vão minhas considerações finais! Obrigada guys por lerem! Caso se interessar por Helenismo, <a
+                <!-- href="https://www.todamateria.com.br/periodo-helenistico-helenismo/" style="color: #7822db">clique
+                aqui</a> e saiba como cultuar, ou apenas descubra mais sobre a religião.</p>
+        <h2 class="texto-rosa">
+            XOXO gosp girl. (˶>⩊<˶)! </h2>
+                <footer class="footer">
+                    <p>&copy;
+                        Desenvovido por: Didi <br> 06/2026
+                    </p>
+                </footer>
+    </div>
+
+</body>
+
+</html>
